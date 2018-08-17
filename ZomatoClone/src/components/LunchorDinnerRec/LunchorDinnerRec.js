@@ -6,7 +6,7 @@ export default class LunchorDinnerRec extends Component {
     const imageUrl = 'https://lh3.googleusercontent.com/zfLfmwlADOsxtrHqlqxscwRd215o6dk6EW-Voulxzv9FQuEYRTyQX1WlEct2AcJbFZw'
     return (
       <ScrollView horizontal>
-          <Card style={{width:150,height:175}} >
+          <Card style={{width:150,height:175,marginLeft:15}} >
             <CardItem cardBody>
               <Image source={{uri: imageUrl }} style={{height: 100, width: null, flex: 1}}/>
             </CardItem>

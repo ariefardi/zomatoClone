@@ -8,7 +8,7 @@ export class HomeScreen extends Component {
     return (
       <ScrollView style={styles.container} >
         <SearchBar />
-        <CardItem>
+        <CardItem style={{backgroundColor: '#eaefeb'}} >
             <Left> 
                 <Text 
                 style={{fontWeight:'700', color:'black'}} 
@@ -27,7 +27,7 @@ export class HomeScreen extends Component {
             </Right>
         </CardItem>
         <LunchorDinnerRec />
-        <CardItem>
+        <CardItem style={{backgroundColor: '#eaefeb'}} >
             <Left> 
                 <Text 
                 style={{fontWeight:'700', color:'black'}} 
@@ -54,7 +54,7 @@ export class HomeScreen extends Component {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#F5FCFF',
+      backgroundColor: '#eaefeb',
     }
   });
 export default HomeScreen
