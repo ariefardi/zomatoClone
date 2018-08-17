@@ -11,7 +11,7 @@ export class HomeScreen extends Component {
         <CardItem>
             <Left> 
                 <Text 
-                style={{fontWeight:'900', color:'black'}} 
+                style={{fontWeight:'700', color:'black'}} 
                 > 
                 Go out for lunch or dinner 
                 </Text>
@@ -30,9 +30,9 @@ export class HomeScreen extends Component {
         <CardItem>
             <Left> 
                 <Text 
-                style={{fontWeight:'900', color:'black'}} 
+                style={{fontWeight:'700', color:'black'}} 
                 > 
-                Go out for lunch or dinner 
+                Get food delivered 
                 </Text>
             </Left>
             <Right>
